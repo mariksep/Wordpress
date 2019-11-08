@@ -1,0 +1,131 @@
+/*
+Theme Name: Tehtävä_WP2
+Theme URI: http://metropolia.fi/themes/tehtava_WP2
+Author: the WordPress team
+Author URI: http://metropolia.fi
+Description: Assingment
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: teht
+Text Domain: omateema
+
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #170B46;
+    color: white;
+    text-align:center;
+}
+.main-container{
+    margin: auto;
+}
+.logo{
+    margin-top:20px;
+    margin-left:20px;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+
+}
+nav{
+    float:left;
+}
+
+.top-nav{
+    width: 100%;
+    list-style-type: none;
+    float:right;
+
+}
+.top-nav li{
+    background-color:transparent;
+    list-style-type: none;
+    padding:  1em;
+    display:inline-flex;
+
+}
+
+.top-nav a{
+    color:white;
+    list-style-type: none;
+}
+.tunnus{
+    border-radius:5px;
+    background-color: transparent;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.tunnus a{
+    text-decoration:none;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.jumbotron{
+    flex-direction: column;
+    line-height: 200px;
+    height: 200px;
+    text-align: center;
+    background-color:#062E6A;
+    border-radius: 5px;
+}
+.jumbotron p{
+    font-size: xx-large;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+main > h4{
+    font-size: x-large;
+
+}
+article{
+    width: 25%;
+    float: left;
+}
+article a{
+    display: block;
+    max-width: 156px;
+    padding: 3px;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+article img{
+    max-width: 100%;
+    height: auto;
+}
+article h4{
+    font-weight: normal;
+    margin: 0.1em 0;
+    padding:  0 0.2em;
+}
+article p{
+    margin: 0.5em 0;
+    font-size: 0.7em;
+    padding:  0 0.2em;
+
+}
+footer{
+    font-size:small;
+    color: #062E6A;
+}
+@media screen and (max-width: 640px) {
+    body{
+        font-size: large;
+    }
+    article {
+        width:50%;
+    }
+    .jumbotron p{
+        font-size: large;
+    }
+}
